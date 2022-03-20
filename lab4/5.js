@@ -12,7 +12,7 @@
 
 function checkBrackets(str) {
     //code here
-    //делали код вместе с NeliOdei(по этому код одинаковый), считаю решение гениальным и простым. 
+    //делали код вместе с NeliOdei и QureGN (по этому код одинаковый), считаю решение гениальным и простым. 
      
     while (str.includes("()") ||  str.includes("[]") || str.includes("<>")) {
         str = str.replace("()", "");

@@ -46,6 +46,7 @@ body {
     padding: 0px 0px;
 }
 .menu {
+    display: flex;
     align-items: center;
     justify-content: space-around;
     width: 34.5%;
@@ -205,6 +206,14 @@ body {
     font-size: 56px;
     padding: 10px;
 }
+.Most {
+    text-align: center;
+    color: #5C5C5C;
+    font-family: inherit;
+    font-size: 24px;
+    padding: 10px;
+    max-width: 480px;
+}
 .buttons {
     display: flex;
     flex-direction: row;
@@ -355,7 +364,8 @@ body {
     padding: 100px 10%;
     width: 80%;
 }
-.text_fourth {
+
+.conteiner4 .text_fourth {
     display: flex;
     flex-direction: row;
     align-self: stretch;
@@ -365,42 +375,8 @@ body {
     width: 100%;
     max-width: 1030px;
 }
-.pictures_figur {
-    display: flex;
-    flex-direction: column;
-    align-self: stretch;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    width: 460px;
-    overflow: hidden;
-    align-self: center;
-}
-.circle_blok_4 {
-    z-index: 1;
-    width: 100%;
-    height: 1px;
-    position: static;
-    display: inherit;
-}
-#yellow_circle_1 {
-    position: absolute;
-    width: 470px;
-    height: 501px;
-    right: 72%;
-    top: 40px;
-}
-.code {
-    z-index: 2;
-    display: flex;
-    width: 100%;
-    height: 351px;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    border-radius: 5px;
-}
-.text_fifth {
+
+.conteiner4 .text_fourth .text_fifth {
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -412,205 +388,557 @@ body {
     padding-left: 20px;
     width: 460px;
 }
-.Variable {
-    font-size: 36px;
-    text-align: left;
-    color: black;
-    font-family: inherit;
-}
-.Open_Type_1 {
-    font-size: 36px;
-    text-align: center;
-    color: black;
-    font-family: inherit;
-}
-.for_big {
-    font-size: 24px;
-    text-align: left;
-    color: #5C5C5C;
-    font-family: inherit;
-}
-.for_small {
-    font-size: 24px;
-    text-align: center;
-    color: #5C5C5C;
-    font-family: inherit;
-    padding: 15px 0px;
-}
-.button_6 {
-    font-size: 18px;
-    text-align: left;
-    color: #00B6F0;
-    font-family: inherit;
-}
 
-
-
-
-
-
-
-.container5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 62px 18.5% 62px 18.5%;
-    align-self: stretch;
-    justify-content: space-between;
-}
-.text_sixth{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: auto;
-    flex-basis: content;
-    word-break: normal;
-    max-width: 810px;
-}
-.Arethink {
-    flex-basis: content;
-    text-align: center;
-    color: #20262A;
-    font-family: inherit;
-    font-size: 56px;
-    padding: 10px 0px;
-    line-height: 50px;
-}
-.File {
-    flex-basis: content;
-    text-align: center;
-    color: #20262A;
-    font-family: inherit;
-    font-size: 56px;
-    padding: 10px 0px;
-    line-height: 50px;
-}
-.text_seventh {
-    text-align: center;
-    color: #5C5C5C;
-    font-family: inherit;
-    font-size: 19px;
-    padding: 10px 0px;
-}
-
-
-
-
-
-
-
-
-
-.container6 {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    align-items: center;
-    padding: 108px 50px;
-}
-
-    .container6 .shapes {
-        z-index: 1;
-        padding: 50px 0px;
-        height: 1px;
-    }
-
-        .container6 .shapes #blob {
-            position: absolute;
-            width: 143px;
-            height: 150px;
-            left: 11%;
-            top: 482px;
-        }
-
-        .container6 .shapes #circle {
-            position: absolute;
-            width: 562px;
-            height: 435px;
-            left: 73.7%;
-            top: 578px;
-        }
-
-    .container6 a {
-        z-index: 2;
-        font-size: 36px;
-        font-family: inherit;
-        color: black;
-    }
-
-    .container6 #logo {
-        height: 60px;
-        width: 150px;
-        z-index: 2;
-        padding: 66px 0px;
-    }
-
-    .container6 #text_big {
-        z-index: 2;
-        text-align: center;
-        color: #5C5C5C;
-        font-size: 19px;
-        font-family: inherit;
-    }
-
-    .container6 #text_small {
-        z-index: 2;
-        text-align: center;
-        color: #5C5C5C;
-        font-size: 19px;
-        font-family: inherit;
-    }
-
-    .container6 .author {
-        z-index: 2;
-        padding: 50px 0px;
-        display: flex;
-        justify-content: space-between;
-        width: 190px;
-        height: 50px;
-    }
-
-        .container6 .author img {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-        }
-
-        .container6 .author .sign {
-            display: block;
-        }
-
-            .container6 .author .sign #up {
-                font-size: 18px;
-                font-family: inherit;
+            .conteiner4 .text_fourth .text_fifth #Variable_1 {
+                font-size: 36px;
+                text-align: left;
                 color: black;
-            }
-
-            .container6 .author .sign #down {
-                font-size: 18px;
                 font-family: inherit;
-                color: #5C5C5C;
             }
 
-    .container6 button {
-        z-index: 2;
-        width: 266px;
-        height: 52px;
-        background-color: #00B6F0;
-        border-radius: 96px;
-        font-family: inherit;
-        color: white;
-        font-size: 18px;
-        border: 1px solid #00B6F0;
-    }
+            .conteiner4 .text_fourth .text_fifth #Open_Type_1 {
+                font-size: 36px;
+                text-align: center;
+                color: black;
+                font-family: inherit;
+            }
 
-        .container6 button:hover {
-            background-color: white;
-            color: #00B6F0;
+            .conteiner4 .text_fourth .text_fifth #for_big {
+                font-size: 24px;
+                text-align: left;
+                color: #5C5C5C;
+                font-family: inherit;
+            }
+
+            .conteiner4 .text_fourth .text_fifth #for_small {
+                font-size: 24px;
+                text-align: center;
+                color: #5C5C5C;
+                font-family: inherit;
+                padding: 15px 0px;
+            }
+
+            .conteiner4 .text_fourth .text_fifth #bottom_6 {
+                font-size: 18px;
+                text-align: left;
+                color: #00B6F0;
+                font-family: inherit;
+            }
+
+                .conteiner4 .text_fourth .text_fifth #bottom_6:hover {
+                    color: rgb(255, 69, 0)
+                }
+
+            .conteiner4 .text_fourth .pictures_figurs {
+            display: flex;
+            flex-direction: column;
+            align-self: stretch;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            width: 460px;
+            overflow: hidden;
+            align-self: center;
         }
 
+            .conteiner4 .text_fourth .pictures_figurs .circle_blok_4 {
+                z-index: 1;
+                width: 100%;
+                height: 1px;
+                position: static;
+                display: inherit;
+            }
+
+            .conteiner4 .text_fourth .pictures_figurs .circle_blok_4 #yellow_circle_1 {
+                    position: absolute;
+                    width: 470px;
+                    height: 501px;
+                    right: 72%;
+                    top: 40px;
+                }
+
+            .conteiner4 .text_fourth .pictures_figurs .code {
+                z-index: 2;
+                display: flex;
+                width: 100%;
+                height: 351px;
+                justify-content: center;
+                position: relative;
+                overflow: hidden;
+                border-radius: 5px;
+            }
+
+            .conteiner4 .text_fourth .pictures_figurs .code img {
+                    width: 516px;
+                    height: 351px;
+                }
+
+
+
+
+
+
+                .container5 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 62px 18.5% 62px 18.5%;
+                    align-self: stretch;
+                    justify-content: space-between;
+                }
+                
+                    .text_sixth {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: auto;
+                        flex-basis: content;
+                        word-break: normal;
+                        max-width: 810px;
+                    }
+                
+                        #Arethink {
+                            flex-basis: content;
+                            text-align: center;
+                            color: #20262A;
+                            font-family: inherit;
+                            font-size: 56px;
+                            padding: 10px 0px;
+                            line-height: 50px;
+                        }
+                
+                        #File {
+                            flex-basis: content;
+                            text-align: center;
+                            color: #20262A;
+                            font-family: inherit;
+                            font-size: 56px;
+                            padding: 10px 0px;
+                            line-height: 50px;
+                        }
+                
+                        #Text_seventh {
+                            text-align: center;
+                            color: #5C5C5C;
+                            font-family: inherit;
+                            font-size: 19px;
+                            padding: 10px 0px;
+                        }
+                
+                    .progress_line {
+                        padding: 52px 0px;
+                        height: auto;
+                        width: 100%;
+                        align-self: center;
+                        max-width: 810px;
+                    }
+                
+                        .progress_line progress {
+                            width: 100%;
+                            height: 25px;
+                
+                            align-items: center;
+                        }
+                
+                        .Facebook {
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                
+                            .Facebook a {
+                                color: #505D6F;
+                                font-size: 14px;
+                                font-family: inherit;
+                            }
+                
+                    .container5 button {
+                        width: 266px;
+                        height: 52px;
+                        background-color: #00B6F0;
+                        border-radius: 96px;
+                        font-family: inherit;
+                        color: white;
+                        font-size: 18px;
+                        border: 1px solid #00B6F0;
+                    }
+                
+                        .container5 button:hover {
+                            background-color: white;
+                            color: #00B6F0;
+                        }
+
+
+
+
+
+
+
+
+
+                        .container6 {
+                            display: flex;
+                            flex-direction: column;
+                            position: relative;
+                            overflow: hidden;
+                            align-items: center;
+                            padding: 108px 50px;
+                        }
+                        
+                            .Figure_2 {
+                                z-index: 1;
+                                padding: 50px 0px;
+                                height: 1px;
+                            }
+                        
+                                .container6 .Figure_2 #small_circle {
+                                    position: absolute;
+                                    width: 143px;
+                                    height: 150px;
+                                    left: 11%;
+                                    top: 482px;
+                                }
+                        
+                                .container6 .Figure_2 #big_circle {
+                                    position: absolute;
+                                    width: 562px;
+                                    height: 435px;
+                                    left: 73.7%;
+                                    top: 578px;
+                                }
+                        
+                            .container6 a {
+                                z-index: 2;
+                                font-size: 36px;
+                                font-family: inherit;
+                                color: black;
+                            }
+                        
+                            .container6 #logo {
+                                height: 60px;
+                                width: 150px;
+                                z-index: 2;
+                                padding: 66px 0px;
+                            }
+                        
+                            .container6 #for_big {
+                                z-index: 2;
+                                text-align: center;
+                                color: #5C5C5C;
+                                font-size: 19px;
+                                font-family: inherit;
+                            }
+                        
+                            .container6 #for_small {
+                                z-index: 2;
+                                text-align: center;
+                                color: #5C5C5C;
+                                font-size: 19px;
+                                font-family: inherit;
+                            }
+                        
+                            .container6 .woman {
+                                z-index: 2;
+                                padding: 50px 0px;
+                                display: flex;
+                                justify-content: space-between;
+                                width: 190px;
+                                height: 50px;
+                            }
+                        
+                                .container6 .woman img {
+                                    width: 50px;
+                                    height: 50px;
+                                    border-radius: 50%;
+                                }
+                        
+                                .container6 .woman .sign {
+                                    display: block;
+                                }
+                        
+                                    .container6 .woman .sign #sign_1 {
+                                        font-size: 18px;
+                                        font-family: inherit;
+                                        color: black;
+                                    }
+                        
+                                    .container6 .woman .sign #sign_2 {
+                                        font-size: 18px;
+                                        font-family: inherit;
+                                        color: #5C5C5C;
+                                    }
+                        
+                            .container6 button {
+                                z-index: 2;
+                                width: 266px;
+                                height: 52px;
+                                background-color: #00B6F0;
+                                border-radius: 96px;
+                                font-family: inherit;
+                                color: white;
+                                font-size: 18px;
+                                border: 1px solid #00B6F0;
+                            }
+                        
+                                .container6 button:hover {
+                                    background-color: white;
+                                    color: #00B6F0;
+                                }
+
+
+
+
+
+
+
+
+                                .container7 {
+                                    display: flex;
+                                    justify-content: center;
+                                    position: relative;
+                                    overflow: hidden;
+                                    background-color: #182333;
+                                }
+                                
+                                    .container7 .text_eighth {
+                                        display: flex;
+                                        align-self: stretch;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        max-width: 1150px;
+                                        width: 100%;
+                                        padding: 100px 14.5%;
+                                    }
+                                
+                                        .container7 .text_eighth .text_ninth {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-self: center;
+                                            align-items: flex-start;
+                                            justify-content: space-between;
+                                            height: 201px;
+                                            width: 437px;
+                                        }
+                                
+                                            .container7 .text_eighth .text_ninth  #Pricing {
+                                                font-size: 56px;
+                                                color: white;
+                                                font-family: inherit;
+                                                padding: 10px;
+                                            }
+                                
+                                            .container7 .text_eighth .text_ninth #for_big_text {
+                                                font-size: 19px;
+                                                text-align: left;
+                                                color: white;
+                                                font-family: inherit;
+                                                padding: 10px;
+                                            }
+                                
+                                            .container7 .text_eighth .text_ninth #for_small_text {
+                                                font-size: 19px;
+                                                text-align: center;
+                                                color: white;
+                                                font-family: inherit;
+                                                padding: 10px;
+                                            }
+                                
+                                        .container7 .text_eighth .text_twentieth {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-self: stretch;
+                                            align-items: flex-start;
+                                            justify-content: space-between;
+                                            width: 290px;
+                                            align-self: center;
+                                            padding-left: 15px;
+                                        }
+                                
+                                            .container7 .text_eighth .text_twentieth #day {
+                                                font-size: 18px;
+                                                text-align: center;
+                                                color: white;
+                                                font-family: inherit;
+                                                padding: 10px;
+                                            }
+                                
+                                                .container7 .text_eighth .text_twentieth .cost {
+                                                display: flex;
+                                                width: 233px;
+                                                height: 96px;
+                                            }
+                                
+                                                .container7 .text_eighth .text_twentieth #five {
+                                                    font-size: 72px;
+                                                    text-align: center;
+                                                    color: #F3CD03;
+                                                    font-family: inherit;
+                                                    padding: 0px;
+                                                }
+                                
+                                                .container7 .text_eighth .text_twentieth #month {
+                                                    font-size: 24px;
+                                                    text-align: left;
+                                                    color: white;
+                                                    font-family: inherit;
+                                                    padding: 10px;
+                                                }
+                                
+                                            .container7 .text_eighth .text_twentieth #bottom {
+                                                font-size: 19px;
+                                                text-align: left;
+                                                color: white;
+                                                font-family: inherit;
+                                                padding: 20px 10px;
+                                            }
+                                
+                                            .container7 .text_eighth .text_twentieth button {
+                                                width: 196px;
+                                                height: 52px;
+                                                background-color: #00B6F0;
+                                                border-radius: 26px;
+                                                font-family: inherit;
+                                                color: white;
+                                                font-size: 18px;
+                                                border: 1px solid #00B6F0;
+                                            }
+                                
+                                                .container7 .text_eighth .text_twentieth button:hover {
+                                                    background-color: white;
+                                                    color: #00B6F0;
+                                                }
+
+
+
+
+
+                                                .container8 {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    background: linear-gradient(180deg, #E9FAFF 0%, white 100%);
+                                                    position: relative;
+                                                    overflow: hidden;
+                                                }
+                                                
+                                                    .container8 .text_twenty_first {
+                                                        display: flex;
+                                                        align-self: center;
+                                                        align-items: flex-start;
+                                                        justify-content: space-between;
+                                                        max-width: 1250px;
+                                                        width: 100%;
+                                                        padding: 50px 12%;
+                                                    }
+                                                
+                                                        .container8 .text_twenty_first .We {
+                                                            height: 84px;
+                                                            width: 400px;
+                                                            padding: 36px 54px;
+                                                            font-size: 34px;
+                                                            color: black;
+                                                            font-family: inherit;
+                                                        }
+                                                
+                                                        .container8 .text_twenty_firs .Being {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            align-self: stretch;
+                                                            align-items: flex-start;
+                                                            justify-content: space-between;
+                                                            width: 446px;
+                                                            align-self: center;
+                                                            padding-left: 20px 0px;
+                                                        }
+                                                
+                                                            .container8 .text_twenty_firs .Being a {
+                                                                font-size: 18px;
+                                                                text-align: left;
+                                                                color: #5C5C5C;
+                                                                font-family: inherit;
+                                                                padding: 30px 10px;
+                                                            }
+                                                
+                                                
+                                                            .container8 .text_twenty_firs .Being button {
+                                                                width: 196px;
+                                                                height: 52px;
+                                                                background-color: #00B6F0;
+                                                                border-radius: 26px;
+                                                                font-family: inherit;
+                                                                color: white;
+                                                                font-size: 18px;
+                                                                border: 1px solid #00B6F0;
+                                                            }
+                                                
+                                                                .container8 .text_twenty_firs .Being button:hover {
+                                                                    background-color: white;
+                                                                    color: #00B6F0;
+                                                                }
+
+
+
+                                                                .container9 {
+                                                                    display: flex;
+                                                                    flex-direction: row;
+                                                                    align-self: stretch;
+                                                                    align-items: center;
+                                                                    justify-content: space-around;
+                                                                }
+                                                                
+                                                                    .container9 .text_twenty_second {
+                                                                        display: flex;
+                                                                        flex-direction: column;
+                                                                        width: 266px;
+                                                                        align-content: start;
+                                                                        align-self: center;
+                                                                    }
+                                                                
+                                                                        .container9 .text_twenty_second img {
+                                                                            height: 68px;
+                                                                            width: 186px;
+                                                                            padding: 0px 10px;
+                                                                        }
+                                                                
+                                                                        .container9 .text_twenty_second a {
+                                                                            font-size: 18px;
+                                                                            color: #5C5C5C;
+                                                                            font-family: inherit;
+                                                                            padding: 0px 5px;
+                                                                        }
+                                                                
+                                                                    .container9 .text_twenty_third {
+                                                                        display: flex;
+                                                                        justify-content: space-between;
+                                                                        width: 31.7%;
+                                                                        align-self: center;
+                                                                        padding: 84px 0px;
+                                                                    }
+                                                                
+                                                                        .container9 .text_twenty_third a {
+                                                                            text-decoration: none;
+                                                                            font-family: inherit;
+                                                                            font-size: 20px;
+                                                                            color: black;
+                                                                            text-align: center;
+                                                                            padding: 10px;
+                                                                        }
+                                                                
+                                                                            .container9 .text_twenty_third a:hover {
+                                                                                color: dodgerblue;
+                                                                            }
+                                                                
+                                                                    .container9 .text_twenty_fourth {
+                                                                        display: flex;
+                                                                        width: 210px;
+                                                                        height: 50px;
+                                                                        justify-content: space-between;
+                                                                        align-items: center;
+                                                                    }
+                                                                
+                                                                        .container9 .text_twenty_fourth img {
+                                                                            height: 50px;
+                                                                            width: 50px;
+                                                                        }
 
 
 
