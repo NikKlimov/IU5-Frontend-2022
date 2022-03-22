@@ -18,6 +18,10 @@
 
 function get1DArray(arr) {
     //code here
+    let newArr = []
+    newArr = arr.flat(Infinity)
+    return newArr
 }
 
 module.exports = get1DArray;
+
