@@ -10,7 +10,7 @@
         "run": "^1.4.0"
     },
     "devDependencies": {
-        "jest": "^26.6.3"
+        "jest": "^27.5.1"
     },
     "scripts": {
         "test": "echo \"Error: no test spe cified\" && exit 1",
