@@ -23,6 +23,22 @@
 
 function makeRoute(arr) {
     //code here
+    let arrTo= arr.map(item => item.to);
+    let arrFrom= arr.map(item => item.from);
+    let newArr=[]
+    let x=0
+    for (let key of arrFrom) {
+        if (!arrTo.includes(key)) {
+            for (let i = 0; i < arrFrom.length; ++i) {
+                x=arrFrom.indexOf(key)
+                newArr.push({ 'from': key, 'to':arrTo[x]  })
+                key = arrTo[x]
+            }
+            break
+        }
+    }
+    return newArr
+
 }
 
 module.exports = makeRoute;
